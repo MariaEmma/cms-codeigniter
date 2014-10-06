@@ -1,3 +1,7 @@
+<?php
+include_once('includes/connection.php')
+echo time();
+?>
 <html>
 	<head>
 		<title>CMS</title>
