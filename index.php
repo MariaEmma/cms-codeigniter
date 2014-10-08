@@ -23,6 +23,9 @@ $articles = $article->fetch_all();
 					- <small>posted <?php echo date('l jS', $article['article_timestamp']); ?></small></li>
 				<?php } ?>
 			</ol>
+
+			<br />
+			<small><a href="admin">admin</a></small>
 			
 		</div>
 	</body>
